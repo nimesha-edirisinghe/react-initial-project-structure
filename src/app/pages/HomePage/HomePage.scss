@@ -1,0 +1,12 @@
+@import 'app/styling/main.scss';
+
+.home-page {
+  @include flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: lawngreen;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+}
